@@ -12,10 +12,10 @@ class ParkingService {
     fun parkVehicle() {
         try {
             println("\n=== Parkir Kendaraan ===")
-            val plateNumber = InputHandler.getInput("Masukkan nomor plat kendaraan (xx xxxx xx):")
+            val plateNumber = InputHandler.getInput("Masukkan nomor plat kendaraan (XX XX XX) : ")
 
             // Menu untuk memilih tipe kendaraan
-            println("Pilih tipe kendaraan: (1 = Car / 2 = Bike / 3 = Truck) : ")
+            print("\nPilih tipe kendaraan: (1 = Car / 2 = Bike / 3 = Truck) : ")
 
             val vehicleTypeInput = readLine()?.toIntOrNull() ?: 0
             val vehicleType = when (vehicleTypeInput) {

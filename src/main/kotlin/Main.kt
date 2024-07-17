@@ -17,7 +17,7 @@ fun main() {
         println("6. Lihat Biaya Parkir")
         println("7. Keluar")
 
-        print("\nSilakan masukkan menu pilihan Anda: (1 / 2 / 3 / 4 / 5 / 6 / 7) = ")
+        print("\nSilakan masukkan menu pilihan Anda: (1 / 2 / 3 / 4 / 5 / 6 / 7) : ")
 
         val choice = readLine()?.toIntOrNull() ?: 0
 
